@@ -1,4 +1,4 @@
-class GetAge {
+export class GetAge {
 
     age = 0;
 
@@ -18,7 +18,7 @@ class GetAge {
 
 }
 
-const Age =  new GetAge(21);
+export const Age =  new GetAge(21);
 
 if (Age.isYoungerThan21()) {
     console.log("Your Are Young to be Drinking..")
